@@ -32,4 +32,3 @@ O projeto Restaurante Saudável foi desenvolvido por [Seu Nome]. Você pode entr
 
 ## Reconhecimentos
 Agradeço ao canal do YouTube Harshit vashisth pelo tutorial [Create Beautiful Website Using CSS Flexbox [Hindi]] no YouTube, que serviu de base para o desenvolvimento deste projeto. O tutorial foi uma valiosa fonte de aprendizado e inspiração para o desenvolvimento do site do Restaurante Saudável. Todo código que foi escrito foi pesquisado, estudado e executado, ou seja, não foi somente uma cópia de código. Você pode encontrar o tutorial completo [aqui](https://www.youtube.com/watch?v=2OV78vriYhY&list=PLRNA1q4J3CqoEfJP0uevZlle4WHJ5jQid).
->>>>>>> bd21f22597c499c9f5b63ff94c4807c832f5617a
