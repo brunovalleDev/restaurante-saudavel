@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="style.css">
   <title>Restaurante Saudável</title>
 </head>
@@ -154,5 +155,74 @@
         </div>
       </div>
     </section>
+
+    <section id="depoimentos">
+      <h2>O que dizem nossos clientes</h2>
+      <div class="depoimentos__container container">
+        <div class="depoimentos__caixa">
+          <div class="depoimentos__estrelas">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rem adipisci aperiam natus voluptate amet!</p>
+          <div class="depoimentos__cliente">
+            <img src="./img/male-photo1.jpg" alt="">
+            <p>Fabiana</p>
+          </div>
+        </div>
+
+        <div class="depoimentos__caixa">
+          <div class="depoimentos__estrelas">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rem adipisci aperiam natus voluptate amet!</p>
+          <div class="depoimentos__cliente">
+            <img src="./img/male-photo2.jpg" alt="">
+            <p>Bruno</p>
+          </div>
+        </div>
+
+        <div class="depoimentos__caixa">
+          <div class="depoimentos__estrelas">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rem adipisci aperiam natus voluptate amet!</p>
+          <div class="depoimentos__cliente">
+            <img src="./img/male-photo3.jpg" alt="">
+            <p>Renan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="contato__container container">
+        <div class="contato__imagem">
+          <img src="./img/restraunt-image.jpg" alt="">
+        </div>
+        <form action="#" method="GET" class="contato__form">
+          <legend class="titulo__formulario">Contato</legend>
+          <input id="nome" type="text" name="nome" required placeholder="Nome">
+          <input id="email"type="email" name="email" required placeholder="E-mail">
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10" required placeholder="Digite sua mensagem aqui"></textarea>
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <h2>Restaurante Saudável</h2>
+    </footer>
 </body>
 </html>
