@@ -244,7 +244,6 @@ input[type="checkbox"],
 
 .categorias__caixa {
   width: 380px;
-  height: 286px;
   position: relative;
   border-radius: 20px;
 }
@@ -255,23 +254,27 @@ input[type="checkbox"],
   content: "";
   position: absolute;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   background-color: #000;
   opacity: 0.80;
   transform: scaleY(0);
-  transform-origin: 50% 100%;
+  transform-origin: 100% 100%;
   z-index: 1;
   transition: all 0.5s linear;
-  border-radius: 20px;
+  border-radius: 10px;
+  top: 0%;
 }
 
 .categorias__caixa:hover::before {
-  transform: scaleY(1);
+  transform: scaleY(100%);
   border-radius: 20px;
 }
 
 .categorias__imagem img {
   max-width: 100%;
+  display: block;
+  margin: auto;
+  min-height: 100%;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -513,9 +516,7 @@ input[type="checkbox"],
     width: 400px;
   }
 
-  .categorias__caixa::before {
-    height: 300px;
-  }
+
 
 }
 
@@ -646,9 +647,6 @@ input[type="checkbox"],
     flex-direction: column;
     align-items: center
   }
-
-
-
 }
 
 /* IPHONE SE */
