@@ -123,7 +123,7 @@ input[type="checkbox"],
 
 .banner {
   height: 50vh;
-  background-image: url('./img/header-image2.jpg');
+  background: linear-gradient(rgba(240, 240, 240, 0.144), rgba(255, 255, 255, 0.336)), url("./img/header-image2.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -319,7 +319,7 @@ input[type="checkbox"],
 .menu__container {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 3rem;
+  row-gap: 2.4rem;
 }
 
 .menu__caixa {
@@ -355,6 +355,138 @@ input[type="checkbox"],
   font-size: 1.4rem;
 }
 
+/* DEPOIMENTOS */
+
+#depoimentos {
+  padding: 15rem 0;
+}
+
+#depoimentos h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--cor-secundaria);
+  margin-bottom: 3rem;
+}
+
+.depoimentos__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.depoimentos__caixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  flex: 1 1 300px;
+  font-size: 1.6rem;
+}
+
+.depoimentos__estrelas {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.depoimentos__estrelas .checked {
+  color: rgb(217, 128, 50);
+  font-size: 1.6rem;
+}
+
+.depoimentos__texto {
+  max-width: 230px;
+}
+
+.depoimentos__cliente img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* CONTATO */
+
+#contato {
+  padding: 4rem 0;
+}
+
+.contato__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 4rem;
+}
+
+.contato__imagem {
+  flex: 1 1 400px;
+}
+
+.contato__imagem img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contato__form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 400px;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-left: 1rem;
+  justify-content: center;
+}
+
+.titulo__formulario {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--cor-primaria);
+}
+
+.contato__form input {
+  font-weight: 600;
+  width: 100%;
+  border: none;
+  padding: 1.2rem 0;
+  font-weight: normal;
+  font-size: 1.2rem;
+  border-bottom: 2px solid rgb(209, 209, 209);
+  outline: none;
+}
+
+.contato__form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(209, 209, 209);
+  outline: none;
+  resize: none;
+}
+
+.contato__form button {
+  font-size: 1.1rem;
+  padding: 1.5rem 3rem;
+  background-color: var(--cor-botao);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: rgba(65, 65, 65);
+}
+
+#footer h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
 
 
 
